@@ -1,38 +1,98 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main__Text {
   text-align: center;
+  margin: 0px 0px 20px 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* This makes both columns take up equal space */
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.part__1 {
+  border-right: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.option__tag {
+  width: 200px;
+  height: 28px;
+  outline: none;
+  margin: 10px 0px;
+}
+.title__2 {
+  margin-top: 15px;
+}
+.btn__box {
+  margin-top: 25px;
+}
+.btn__box button {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.btn__2,
+.btn__3 {
+  margin-left: 30px;
+}
+.title__3 {
+  margin-top: 25px;
+}
+.click {
+  width: 20px;
+  height: 20px;
+}
+.check__con {
+  display: flex;
+}
+.check__dad {
+  display: flex;
+  margin-top: 20px;
+}
+.check__box__2 {
+  margin-left: 90px;
+}
+.check__con {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  label {
+    margin-left: 10px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title__4 {
+  margin-top: 20px;
+}
+.addon__box {
+  display: flex;
+  margin-top: 15px;
+}
+.add__div {
+  margin-left: 118px;
+}
+.part__2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.upload__btn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(255, 115, 0);
   color: white;
+  border: none;
+  margin-top: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.separate {
+  margin: 20px 0px;
 }
